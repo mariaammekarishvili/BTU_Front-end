@@ -1,0 +1,50 @@
+main{
+    display: flex;
+    ;
+}
+h1{
+
+    text-align: left;
+    font-style: italic;
+    color: darkred;
+    border-bottom: 10px grey solid;
+    margin: 20px;
+}
+
+ul{
+    flex: 1;
+}
+li{
+    list-style: none;
+    width: 300px;
+    height: 70px;
+    background-color: lightseagreen;
+    text-align: center;
+    border: #187c77 1px solid;
+}
+a{
+    margin: 0 auto;
+}
+
+/*!*a{*!*/
+
+/*    padding: 20px;*/
+/*    text-align: center;*/
+/*    background-color: lightseagreen;*/
+/*    border: 1px #245655 solid;*/
+/*    width: 300px;*/
+/*    height: 100px;*/
+/*}*/
+
+img{
+text-align: center;
+}
+
+.text{
+    flex: 3;
+    margin: 0;
+    text-align: center;
+}
+.text>p>span{
+    font-weight: bold;
+}
