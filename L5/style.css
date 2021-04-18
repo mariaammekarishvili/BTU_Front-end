@@ -1,0 +1,130 @@
+.form {
+    margin: 30px auto;
+    border: solid 1px black;
+    width: 80%;
+    height: 600px;
+    color: #414147;
+    padding-left: 5px;
+}
+
+.form input, textarea{
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gray;
+}
+textarea{
+    height: 100px;
+    width: 500px;
+}
+
+.div-textarea{
+    display: flex;
+}
+.span-textarea{
+    ;
+}
+
+.form>div {
+    padding: 20px;
+    margin: auto;
+}
+/*-2-*/
+.form__logIn{
+    margin: 50px auto;
+    width: 500px;
+    height: 400px;
+    background: #faecec;
+    text-align: center;
+    padding: 50px;
+    border-left: solid 2px gray;
+    border-bottom: solid 2px gray;
+}
+
+.form__logIn>div{
+    margin: 30px auto;
+    text-align: center;
+
+
+}
+.form__logIn input{
+    border-radius: 10px;
+    border: #a0a0a0 1px solid;
+    background: white;
+    height: 50px;
+    width: 300px;
+    text-align: left;
+}
+
+.form__logIn button{
+    color: wheat;
+    background: red;
+    border-color: red;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+/*registration*/
+.form__registration{
+    margin: 20px auto;
+    width: 90%;
+    background: #cbefe2;
+    border: 1px #9acd8f solid;
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #9acd8f;
+}
+.registration__div-cuestion>div{
+    margin: 20px;
+    text-align: center;
+}
+.registration__div-cuestion input{
+    width: 500px;
+    height: 40px;
+    border: #9acd8f   1px solid;
+    border-radius: 10px;
+}
+
+.registration__div-cuestion textarea{
+    border: #9acd8f   1px solid;
+    border-radius: 10px;
+}
+
+.registration__div-icons{
+    margin: 0 20px 20px 40px;
+}
+
+.registration__div-icons>div{
+    margin: 20px;
+}
+
+.registration__div-icons h2{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+.registration__div-icons input{
+    color: #9acd8f ;
+
+}
+.form__registration button{
+    width: 200px;
+    height: 60px;
+    color: white;
+    background: #48c248;
+    border-radius: 10px;
+    margin: 20px auto;
+    border: none;
+    text-align: center;
+
+}
+.button{
+    text-align: center;
+}
