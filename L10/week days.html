@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>DOM</title>
+<style>
+    label{
+        font-weight: bold;
+        font-size: 24px;
+        color: #2196F3;
+    }
+    input{
+        margin: 20px;
+        padding:10px;
+        box-shadow: 2px 4px 0px 0px #c3baba;
+        font-size: 20px;
+
+    }
+    input:focus{
+        outline: unset;
+    }
+    button{
+        margin: 10px;
+        height: 30px;
+        width: 60px;
+    }
+</style>
+</head>
+<script>
+
+    function btnClick(weekDay){
+        document.getElementById("input").placeholder = weekDay;
+    }
+</script>
+<body>
+<label id ='label' for="input">კვირის დღე: </label>
+<input id='input' type="text" placeholder="Hello">
+<div>
+    <button onclick="btnClick('sunday')">1</button>
+    <button onclick="btnClick('monday')">2</button>
+    <button onclick="btnClick('Tuesday')">3</button>
+    <button onclick="btnClick('We')">4</button>
+    <button onclick="btnClick('Th')">5</button>
+    <button onclick="btnClick('Fr')">6</button>
+    <button onclick="btnClick('Sa')">7</button>
+</div>
+</body>
+</html>
