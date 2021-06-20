@@ -4,6 +4,7 @@
     flex-grow: 1;
     height: 50px;
     margin: auto 10px;
+    font-style: italic;
 }
 
 @media only screen and (min-width: 600px) {
